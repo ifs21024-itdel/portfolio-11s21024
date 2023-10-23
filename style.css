@@ -106,23 +106,6 @@ header nav ul li a:hover::before {
   transform: scaleX(1);
 }
 
-/* Tambahkan gaya untuk hamburger menu */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  position: relative;
-  z-index: 1;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  margin: 4px 0;
-  transition: 0.4s;
-}
-
 
 
 .home {
@@ -1122,9 +1105,6 @@ circle {
     display: none; 
   }
 
-  .hamburger {
-    display: block;
-  }
   .header-logo{
     font-size: 15px;
   }
@@ -1134,10 +1114,6 @@ circle {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .navbar {
     display: block; 
-  }
-
-  .hamburger {
-    display: none; 
   }
 }
 
