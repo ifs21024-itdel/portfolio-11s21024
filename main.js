@@ -5,8 +5,6 @@ window.addEventListener("scroll", function(){
 });
 
 
-
-
 // navbar 
 // Menangkap semua tautan di navbar
 const navLinks = document.querySelectorAll('.navbar a');
@@ -22,26 +20,6 @@ navLinks.forEach((link) => {
     }
   });
 });
-
-
-// let sections = document.querySelectorAll('section');
-// let navLink = document.querySelectorAll('header nav ul li a');
-
-// window.onscroll = () => {
-//   sections.forEach(sec => {
-//     let top = window.scroollY;
-//     let offset = sec.offsetTop - 150;
-//     let height = sec.offsetHeight;
-//     let id = sec.getAttribute('id');
-
-//     if(top > offset && top < offset + height){
-//       navLink.forEach(links => {
-//         links.classList.remove('active');
-//         document.querySelector('header nav ul li a [href*='+id+']').classList.add('active');
-//       })
-//     }
-//   })
-// }
 
 
 
